@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'proximanova';
+    src: url('./assets/fonts/proximanova-regular-webfont.woff');
+}
+
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-clr-500: #33aef4;
+    --primary-clr-600: #000;
+    --secondary-clr: #9f9f9f;
+    --gradient-clr1: #8c1041;
+    --gradient-clr2: #2a172e;
+}
+
+
+body {
+    font-family: 'proximanova', sans-serif;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+button, a, input {
+    font-family: inherit;
+}
+
+.container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ==========header=============== */
+.logo-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2rem 5px 2rem;
+}
+
+.three-boxes {
+    display: flex;
+    gap: 10px;
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #000000;
+}
+
+.soapbox-title {
+    background-image: linear-gradient(180deg, #8c1041, #2a172e 100%);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.soapbox-title h1 {
+    font-weight: 100;
+    font-size: 1.3rem;
+    line-height: 2;
+}
+
+nav {
+    box-shadow: 0px 1px 1px 0px var(--secondary-clr);
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    padding: 7px;
+    margin: auto;
+}
+
+.menu-link {
+    color: var(--primary-clr-600);
+}
+
+.menu-item {
+    position: relative;
+}
+
+.menu-link.active::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: var(--gradient-clr1);
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+}
+
+
+/* ================hero-section========= */
+.hero-section {
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    align-items: center;
+    justify-content: left;
+    background: linear-gradient(110deg, var(--gradient-clr1), var(--gradient-clr2) 100%);
+    margin: 2rem auto;
+}
+
+.hero-img {
+    max-width: 800px;
+    transform: translate(-2rem, 2rem);
+    padding-right: 2rem;
+}
+
+.hero-content {
+    color: #fff;
+    max-width: 400px;
+}
+
+.hero-title2 {
+    margin-top: 4rem;
+}
+
+.hero-text {
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.897);
+}
+
+.hero-btn {
+    display: inline-block;
+    padding: 5px 2rem;
+    margin-top: 4rem;
+    text-align: center;
+    border: 2px solid #fff;
+    background-color: #fff;
+    color: var(--gradient-clr1);
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all .2s ease-in-out;
+}
+
+.hero-btn:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+/* ================get-started-section============ */
+.get-started-section {
+    text-align: center;
+    margin: 6rem auto;
+}
+
+.get-started-section h3 {
+    color: var(--gradient-clr1);
+}
+
+.get-started-section p {
+    color: rgba(0, 0, 0, 0.897);
+}
+
+.get-started-section h2 {
+    font-size: 2rem;
+    margin: 1rem auto;
+}
+
+.get-started-items {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    border-bottom: 2px solid var(--secondary-clr);
+    padding: 5px 6rem;
+    max-width: max-content;
+    margin: 1rem auto;
+}
+
+
+.get-started-item {
+    position: relative;
+    font-size: .9rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.get-started-item.active {
+    color: var(--gradient-clr1);
+}
+
+.get-started-item.active::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: var(--gradient-clr1);
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+}
+
+.get-started-flex {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.get-started-flex img {
+    max-width: 450px;
+}
+
+.get-started-content {
+    width: 270px;
+    text-align: left;
+}
+
+.get-started-content p {
+    color: rgba(0, 0, 0, 0.897);
+}
+
+.get-started-flex.active {
+    display: flex;
+}

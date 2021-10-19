@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26.432" height="37.797">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="Soapbox" transform="translate(.75 .75)">
+        <path id="Line_1" data-name="Line 1" class="cls-1" transform="translate(12.426 29.913)" d="M0 4.241V0"/>
+        <path id="Path_1" data-name="Path 1" class="cls-1" d="M26.714 30.9a5.731 5.731 0 0 0-3.256-.923h-6.512a5.783 5.783 0 0 0-3.126.876l-.13.094" transform="translate(-7.916 5.049)"/>
+        <rect id="Rectangle_193" data-name="Rectangle 193" class="cls-1" width="16.232" height="23.941" rx="5.03" transform="translate(4.303)"/>
+        <path id="Path_2" data-name="Path 2" class="cls-1" d="M34.932 18.52a12.381 12.381 0 0 1-12.506 12.252h0A12.379 12.379 0 0 1 10 18.52" transform="translate(-10 -1.633)"/>
+        <path id="Line_2" data-name="Line 2" class="cls-1" transform="translate(4.481 16.499)" d="M0 0h5.226"/>
+        <path id="Line_3" data-name="Line 3" class="cls-1" transform="translate(4.481 12.059)" d="M0 0h5.226"/>
+        <path id="Line_4" data-name="Line 4" class="cls-1" transform="translate(14.626 16.499)" d="M0 0h5.79"/>
+        <path id="Line_5" data-name="Line 5" class="cls-1" transform="translate(14.626 12.059)" d="M0 0h5.79"/>
+    </g>
+</svg>
