@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="106" height="32" viewBox="0 0 106 32">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-1003.000000, -136.000000) translate(1003.000000, 136.000000)">
+                    <text fill="#5A75D6" font-family="ProximaNova-Regular, Proxima Nova" font-size="15" letter-spacing=".167">
+                        <tspan x="16.612" y="20.6">Reports</tspan>
+                    </text>
+                    <g fill="#5A75D6">
+                        <path d="M17.313 3.729L13.803.213l-.892.893 3.327 3.327H.258v1.258h15.98L12.91 9.018l.893.893 3.509-3.516c.736-.736.736-1.93 0-2.666z" transform="translate(73.000000, 12.000000)"/>
+                    </g>
+                    <rect width="105" height="31" x=".5" y=".5" stroke="#5A75D6" rx="15.5"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
