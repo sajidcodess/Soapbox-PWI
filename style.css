@@ -383,14 +383,102 @@ nav {
     color: var(--primary-clr-500);
 }
 
+@media screen and (max-width: 1025px) {
+    .menu {
+        max-width: 700px;
+    }
 
-@media screen and (max-width: 800px) {
+    .hero-content {
+        padding: 1rem;
+    }
+
+    .hero-title2 {
+        margin-top: 2rem;
+    }
+
+    .btns {
+        flex-direction: column;
+    }
+}
+
+.menu-toggle {
+    display: none;
+}
+
+
+@media screen and (max-width: 700px) {
+
+    nav {
+        background-color: #fff;
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.459);
+        width: 90%;
+        border-radius: 10px;
+        padding: 2rem;
+        position: absolute;
+        top: -100%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 1.2rem;
+        z-index: 999;
+        opacity: 0;
+        transition: all .2s ease-in-out;
+    }
+
+    nav.active {
+        top: 8rem;
+        opacity: 1;
+    }
+    
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .menu-toggle {
+        position: absolute;
+        top: 5.3rem;
+        right: 2rem;
+        font-size: 1.3rem;
+        display: block;
+    }
+
+    .menu-toggle:active {
+        color: var(--primary-clr-500);
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        justify-items: center;
+    }
+
+    .get-started-flex {
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .setup-account {
+        padding: 3rem 1rem;
+    }
+
+    .account-flex {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: left;
+    }
+
+    .networks {
+        padding: 1rem;
+    }
 
 
     .ft-flex {
         flex-direction: column;
-        text-align: left;
-        padding: 1rem;
+        text-align: center;
+        padding: 3rem;
     }
 
     .ft-list ul {
