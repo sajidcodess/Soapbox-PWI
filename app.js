@@ -7,6 +7,7 @@ const toggleMenu = document.querySelector(".menu-toggle")
 
 // get started page ======================
 
+// menu toggle 
 toggleMenu.addEventListener('click', () => {
     menu.classList.toggle('active')
 })
@@ -17,6 +18,7 @@ menuItem.forEach(item => {
     })
 })
 
+// *********
 getStartedItems.forEach((item1, idx1) => {
     item1.addEventListener('click', (e) => {
         

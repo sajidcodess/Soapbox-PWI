@@ -162,10 +162,18 @@ nav {
 
     .menu-toggle {
         position: absolute;
-        top: 5.3rem;
+        top: 1rem;
         right: 2rem;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         display: block;
+    }
+
+    .reports-btn {
+        display: none;
+    }
+
+    .logo-flex {
+        padding: 10px 1rem;
     }
 
     .menu-toggle:active {

@@ -428,6 +428,7 @@ nav {
         top: 8rem;
         opacity: 1;
     }
+
     
     .menu {
         display: flex;
@@ -439,24 +440,42 @@ nav {
 
     .menu-toggle {
         position: absolute;
-        top: 5.3rem;
+        top: 1rem;
         right: 2rem;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
+        color: #000;
         display: block;
     }
-
+    
     .menu-toggle:active {
         color: var(--primary-clr-500);
     }
-
+    
     .hero {
         grid-template-columns: 1fr;
         gap: 2rem;
         justify-items: center;
     }
 
+    .reports-btn {
+        display: none;
+    }
+
+    .logo-flex {
+        padding: 10px 1rem;
+    }
+    
     .get-started-flex {
+        flex-direction: column;
         gap: 1rem;
+        padding: 1rem;
+    }
+
+    .get-started-items {
+        gap: 2.5rem;
+    }
+
+    .testimonials {
         padding: 1rem;
     }
 
@@ -479,10 +498,13 @@ nav {
         flex-direction: column;
         text-align: center;
         padding: 3rem;
+        align-items: center;
+        gap: 2rem;
     }
 
     .ft-list ul {
         flex-direction: column;
+        gap: 10px;
     }
 }
 
