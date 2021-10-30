@@ -81,8 +81,31 @@
     transition: all .2s ease-in-out;
 }
 
+.question:hover + span {
+    animation: arrow-down .8s ease-in-out forwards infinite;
+}
+
+@keyframes arrow-down {
+    30% {
+        transform: translateY(3px);
+    }
+
+    55% {
+        transform: translateY(5px);
+    }
+
+    80% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-2px);
+    }
+}
+
 .question.active + span {
     transform: rotate(-180deg);
+    animation: none;
 }
 
 .collapsable {

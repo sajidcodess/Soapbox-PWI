@@ -104,6 +104,17 @@ nav {
     left: 0;
 }
 
+.menu-link:hover:after {
+    content: "";
+    width: 100px;
+    height: 2px;
+    background: rgba(136, 136, 136, 0.719);
+    position: absolute;
+    bottom: -9px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 
 /* ================hero-section========= */
 .hero-section {

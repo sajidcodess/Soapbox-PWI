@@ -51,6 +51,21 @@
 
 .post-history p:hover > span {
     cursor: default;
+    animation: arrow-down .8s ease-in-out forwards infinite;
+}
+
+@keyframes arrow-down {
+    50% {
+        transform: translateY(3px);
+    }
+
+    75% {
+        transform: translateY(7px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 .post-history span {
@@ -137,6 +152,7 @@ table .facebook {
 
 .post-history p.active > span {
     transform: rotate(-180deg);
+    animation: none;
 }
 
 
