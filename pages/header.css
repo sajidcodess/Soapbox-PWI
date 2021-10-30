@@ -96,12 +96,13 @@ nav {
 
 .menu-link.active::after {
     content: "";
-    width: 100%;
+    width: 100px;
     height: 2px;
     background: var(--gradient-clr1);
     position: absolute;
     bottom: -9px;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 
@@ -166,6 +167,7 @@ nav {
         right: 2rem;
         font-size: 1.5rem;
         display: block;
+        color: #000;
     }
 
     .reports-btn {

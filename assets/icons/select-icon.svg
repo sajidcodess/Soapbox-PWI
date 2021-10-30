@@ -1,0 +1,9 @@
+<svg width="11.808" height="23.753">
+    <defs>
+        <style>
+            .cls-1{fill:#888}
+        </style>
+    </defs>
+    <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" class="cls-1" d="m12.094 15.963 4.465-4.468a.84.84 0 0 1 1.192 0 .851.851 0 0 1 0 1.2l-5.059 5.063a.842.842 0 0 1-1.164.025l-5.094-5.09a.844.844 0 1 1 1.192-1.2z" transform="translate(-6.188 5.755)"/>
+    <path id="Icon_ionic-ios-arrow-down-2" data-name="Icon ionic-ios-arrow-down" class="cls-1" d="M5.906 4.716 10.371.248a.84.84 0 0 1 1.192 0 .851.851 0 0 1 0 1.2L6.5 6.506a.842.842 0 0 1-1.16.024L.246 1.447A.844.844 0 0 1 1.438.251z" transform="rotate(180 5.904 3.376)"/>
+</svg>

@@ -7,14 +7,14 @@
     <title>Soapbox-PWI</title>
     <script src="https://kit.fontawesome.com/268d8a2bee.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./header.css">
-    <script src="../app.js" defer></script>
+    <link rel="stylesheet" href="./post.css">
 </head>
 <body>
     <div class="wrapper">
         <header>
             <div class="container">
               <div class="logo-flex">
-                  <a href="./index.html" class="logo">
+                  <a href="../index.html" class="logo">
                       <svg width="45" height="45" viewBox="0 0 45 45">
                           <defs>
                             <style>
@@ -94,5 +94,67 @@
             </nav>
         </header>
    </div>
+
+   <main>
+     <div class="post container">
+       <h2>Create New Post</h2>
+       <p>
+          Write your post, add an image, select your platform, and schedule your post
+       </p>
+
+       <h3 class="h3">Choose one or multiple platforms to post to</h3>
+       <div class="platform-btns">
+         <a href="#" class="facbook"><i class="fab fa-facebook-f"> FACEBOOK</i></a>
+         <a href="#" class="twitter"><i class="fab fa-twitter"> TWITTER</i></a>
+         <a href="#"><img src="../assets/imgs/post/Group 49.png" alt="pinterest"></a>
+         <a href="#"><img src="../assets/imgs/post/Group 50.png" alt="instagram"></a>
+       </div>
+       <hr>
+
+       <div class="textarea container">
+         <h3 class="h3">Write your post below</h3>
+         <textarea name="post" id="post" rows="5"></textarea>
+         <div class="textarea-bottom">
+           <div class="textarea-icons">
+             <i class="fab fa-pinterest-p"></i> <span>5,000</span>
+             <i class="fab fa-instagram"></i> <span> 280</span>
+             <i class="fab fa-twitter"></i> <span>2.200</span> 
+             <i class="fab fa-facebook-f"></i> <span> 500</span>
+           </div>
+         </div>
+       </div>
+       <hr>
+
+       <div class="upload container">
+         <div class="flx">
+           <h3 class="h3">Add an image or video (optional)</h3>
+           <img class="information-icon" src="../assets/icons/Icon ionic-ios-information-circle-outline.svg">
+         </div>
+         
+         <div class="upload-img">
+           <img src="../assets/imgs/post/upload-img.png" alt="upload-img">
+         </div>
+       </div>
+       <hr>
+
+       <div class="hashtag container">
+        <div class="flx">
+          <h3 class="h3">Add Hashtags (optional)</h3>
+          <img class="information-icon" src="../assets/icons/Icon ionic-ios-information-circle-outline.svg">
+        </div>
+          <button class="hashtag-btn">+ Create Hashtag List</button>
+       </div>
+       <hr>
+
+       <div class="post-time container">
+         <h3>Choose post time</h3>
+         <div class="post-btns">
+           <button class="post-btn">POST NOW</button>
+           <button class="post-btn">SCHEDULE</button>
+         </div>
+       </div>
+     </div>
+   </main>
+
 
 </body>

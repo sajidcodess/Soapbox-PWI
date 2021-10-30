@@ -1,0 +1,223 @@
+:root {
+    --primary-clr-500: #33aef4;
+    --primary-clr-600: #000;
+    --secondary-clr: #f0f0f0;
+    --gradient-clr1: #8c1041;
+    --gradient-clr2: #2a172e;
+}
+
+button {
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.post {
+    text-align: center;
+}
+
+.post h2 {
+    color: var(--gradient-clr1);
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.post .h3 {
+    font-weight: bold;
+    margin-top: 1.3rem;
+    font-size: .9rem;
+}
+
+.platform-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 2rem;
+}
+
+.post .facbook,
+.post .twitter {
+    color:#fff;
+    font-size: .8rem;
+    border-radius: 5px;
+    padding: .6rem 1rem;
+}
+
+.post .facbook {
+    background-color: #3f63b1;
+}
+
+.post .twitter {
+    background-color: #1a9ef3;
+}
+
+.post a img {
+    max-width: 100px;
+}
+
+.post hr {
+    width: 80%;
+    margin: 2rem auto;
+    background-color: var(--secondary-clr);
+    border: 1px solid var(--secondary-clr);
+}
+
+.post textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 5px;
+    line-height: 2;
+    resize: none;
+    border-radius: 5px 5px 0 0;
+    border: none;
+    box-shadow: inset 0px 3px 10px 0px rgba(0, 0, 0, 0.19);
+}
+
+.textarea {
+    width: 80%;
+}
+
+.textarea h3 {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.textarea-bottom {
+    width: 100%;
+    margin: auto;
+    margin-top: -10px;
+    background: var(--secondary-clr);
+    text-align: right;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+}
+
+.textarea-bottom span {
+    color: var(--primary-clr-500);
+    font-size: .7rem;
+    font-size: bold;
+}
+
+.textarea-bottom i {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: .7rem;
+    padding: 5px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.fab.fa-pinterest-p {
+    background-color: #e60b23;
+}
+.fab.fa-instagram {
+    background-color: #cb247f;
+    padding: 4px;
+}
+.fab.fa-facebook-f {
+    background-color: #3f63b1;
+}
+.fab.fa-twitter {
+    background-color: #1a9ef3;
+    padding: 4px;
+}
+
+
+.upload {
+    text-align: left;
+    width: 80%;
+}
+
+.flx {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.information-icon {
+    width: 15px;
+}
+
+.upload-img {
+    max-width: 400px;
+    margin: 10px 0;
+}
+
+
+.hashtag {
+    width: 80%;
+    text-align: left;
+}
+
+.hashtag .information-icon {
+    margin-top: 22px;
+}
+
+.hashtag-btn {
+    padding: .5rem 1rem;
+    background: transparent;
+    border: 2px solid var(--gradient-clr1);
+    border-radius: 5px;
+    color: var(--gradient-clr1);
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.hashtag-btn:hover {
+    color: #fff;
+    background-color: var(--gradient-clr1);
+}
+
+.upload .h3 {
+    margin: 10px 0;
+}
+
+
+.post-time {
+    text-align: center;
+}
+
+.post-time h3 {
+    margin: 1rem 0;
+}
+
+.post-btns {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 6rem;
+}
+
+.post-btn {
+    padding: .5rem 1rem;
+    background: var(--gradient-clr1);
+    border: 2px solid var(--gradient-clr1);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.post-btn:hover {
+    color: var(--gradient-clr1);
+    background-color: transparent;
+}
+
+
+
+
+@media screen and (max-width: 570px) {
+    .post .facbook,
+    .post .twitter {
+    font-size: .6rem;
+    padding: .3rem .5rem;
+  }
+
+  .platform-btns {
+      gap: 10px;
+  }
+
+    .platform-btns img {
+        width: 4rem;
+    }
+}
