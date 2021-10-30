@@ -3,6 +3,8 @@ const menu= document.querySelector("nav")
 const menuItem= document.querySelectorAll(".menu-item")
 const toggleMenu = document.querySelector(".menu-toggle")
 
+console.log(menu, menuItem, toggleMenu)
+
 // get started page ======================
 
 // menu toggle 
