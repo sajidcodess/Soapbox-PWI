@@ -35,6 +35,11 @@ button {
     gap: 2rem;
 }
 
+.platform-btns img {
+    vertical-align: sub;
+    padding-top: 3px;
+}
+
 .post .facbook,
 .post .twitter {
     color:#fff;
