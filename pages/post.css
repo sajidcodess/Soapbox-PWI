@@ -35,29 +35,38 @@ button {
     gap: 2rem;
 }
 
-.platform-btns img {
-    vertical-align: sub;
-    padding-top: 3px;
-}
 
-.post .facbook,
-.post .twitter {
-    color:#fff;
-    font-size: .8rem;
+.platform-btns a {
+    color:rgba(255, 255, 255, 0.919);
     border-radius: 5px;
     padding: .6rem 1rem;
+    background-color: black;
+    font-family: inherit;
 }
 
-.post .facbook {
+.platform-btns a:hover {
+    box-shadow:  0px 0px 10px 1px rgba(0, 0, 0, 0.19);
+}
+
+.platform-btns i {
+    padding: 3px;
+    transform: scale(1.3);
+}
+
+.platform-btns .facbook {
     background-color: #3f63b1;
 }
 
-.post .twitter {
+.platform-btns .twitter {
     background-color: #1a9ef3;
 }
 
-.post a img {
-    max-width: 100px;
+.platform-btns .instagram {
+    background-image: linear-gradient(to right, #ca2483, #eb2625 52%, #fdaf2a);
+}
+
+.platform-btns .pinterest {
+    background-color: #e60b23;
 }
 
 .post hr {
@@ -66,7 +75,7 @@ button {
     background-color: var(--secondary-clr);
     border: 1px solid var(--secondary-clr);
 }
-
+ 
 .post textarea {
     width: 100%;
     padding: 1rem;
@@ -114,17 +123,17 @@ button {
     border-radius: 50%;
 }
 
-.fab.fa-pinterest-p {
+.textarea .fab.fa-pinterest-p {
     background-color: #e60b23;
 }
-.fab.fa-instagram {
+.textarea .fab.fa-instagram {
     background-color: #cb247f;
     padding: 4px;
 }
-.fab.fa-facebook-f {
+.textarea .fab.fa-facebook-f {
     background-color: #3f63b1;
 }
-.fab.fa-twitter {
+.textarea .fab.fa-twitter {
     background-color: #1a9ef3;
     padding: 4px;
 }
@@ -212,17 +221,15 @@ button {
 
 
 @media screen and (max-width: 570px) {
-    .post .facbook,
-    .post .twitter {
-    font-size: .6rem;
-    padding: .3rem .5rem;
-  }
+    
 
   .platform-btns {
-      gap: 10px;
+      gap: 5px;
   }
 
-    .platform-btns img {
-        width: 4rem;
-    }
+  .platform-btns a {
+      font-size: .7rem;
+      padding: .3rem .7rem;
+  }
+
 }
